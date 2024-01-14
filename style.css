@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+*{
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+}
+.circle{
+   
+    position: absolute;
+    z-index: 1;
+    background-color: blueviolet;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: -75px;
+    margin-top: -75px;
+    position: fixed;
+}
+.circle i{
+    font-size: 23px;
+    margin-left: 90px;
+    margin-top: 92px;
+    cursor: pointer;
+}
+.container{
+    position: absolute;
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+}
+.otherContainer{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+    background-color: white;
+    z-index: -2;
+    color: black;
+}
+.otherContainer ul{
+    margin-bottom: 150px;
+    margin-left: -150px;
+}
+
+.otherContainer ul li{
+    margin-bottom: 20px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.otherContainer ul li i{
+    margin-right: 10px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+.includes{
+    height: auto;
+    width: 60%;
+    margin-top: 5%;
+    
+}
+.includes h2{
+    margin-bottom: 3px ;
+}
+.includes h5{
+    margin-bottom: 30px;
+    font-style: italic;
+    color: gray;
+}
+
+.includes h3{
+    margin-top: 30px;
+}
+.includes img{
+    margin-top: 30px;
+    width: 70%;
+    margin-bottom: 20px;
+}
